@@ -1,0 +1,18 @@
+//Attributes
+account holder name
+account number
+account opening date
+account status
+available balance
+total balance
+mobile banking enable
+interest rate
+mode of operations
+
+
+
+//Behavior
+retrieve balance
+debit balance
+credit balance
+
