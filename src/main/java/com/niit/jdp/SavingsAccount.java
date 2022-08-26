@@ -125,4 +125,20 @@ public class SavingsAccount {
     double retrieveBalance ( ) {
         return getAvailableBalance ( );
     }
+    
+    // This is a method which is used to display the details of the account.
+    public void display ( ) {
+        System.out.println ( "HolderName = " + accountHolderName );
+        System.out.println ( "AccountNumber = " + accountNumber );
+        System.out.println ( "OpeningDate = " + accountOpeningDate );
+        System.out.println ( "Status = " + accountStatus );
+        System.out.println ( "MobileBankingEnable = " + mobileBankingEnable );
+        System.out.println ( "InterestRate = " + interestRate );
+        System.out.println ( "ModeOfOperation = " + modeOfOperation );
+        System.out.println ( "AvailableBalance = " + availableBalance );
+    }
+    
+    public void getModeOfOperation ( String joint_operation ) {
+    
+    }
 }
