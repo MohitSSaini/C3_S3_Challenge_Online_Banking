@@ -126,7 +126,7 @@ public class SavingsAccount {
         return getAvailableBalance ( );
     }
     
-    // This is a method which is used to display the details of the account.
+            // This is a method which is used to display the details of the account.
     public void display ( ) {
         System.out.println ( "HolderName = " + accountHolderName );
         System.out.println ( "AccountNumber = " + accountNumber );
