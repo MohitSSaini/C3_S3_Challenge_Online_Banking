@@ -16,4 +16,19 @@ public class SavingsAccount {
     private double interestRate;
     private String modeOfOperation;
     
+    public SavingsAccount ( ) {
+    
+    }
+    
+    public SavingsAccount ( String accountHolderName , long accountNumber , String accountOpeningDate , String accountStatus , double accountBalance , double totalBalance , boolean mobileBankingEnable , double interestRate , String modeOfOperation ) {
+        this.accountHolderName = accountHolderName;
+        this.accountNumber = accountNumber;
+        this.accountOpeningDate = accountOpeningDate;
+        this.accountStatus = accountStatus;
+        this.accountBalance = accountBalance;
+        this.totalBalance = totalBalance;
+        this.mobileBankingEnable = mobileBankingEnable;
+        this.interestRate = interestRate;
+        this.modeOfOperation = modeOfOperation;
+    }
 }
