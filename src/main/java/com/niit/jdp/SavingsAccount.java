@@ -5,35 +5,41 @@
  */
 package com.niit.jdp;
 
+/**
+ * This class represents a savings account.
+ */
 public class SavingsAccount {
     private String accountHolderName;
     private long accountNumber;
     private String accountOpeningDate;
     private String accountStatus;
-    private double accountBalance;
+    private double availableBalance;
     private double totalBalance;
     private boolean mobileBankingEnable;
     private double interestRate;
     private String modeOfOperation;
     
+    // This is a constructor.
     public SavingsAccount ( ) {
-    
     }
     
-    public SavingsAccount ( String accountHolderName , long accountNumber , String accountOpeningDate ,
-                            String accountStatus , double accountBalance , double totalBalance ,
-                            boolean mobileBankingEnable , double interestRate , String modeOfOperation ) {
+    public SavingsAccount ( String accountHolderName , long accountNumber ,
+                            String accountOpeningDate , String accountStatus ,
+                            double availableBalance , double totalBalance ,
+                            boolean mobileBankingEnable , double interestRate ,
+                            String modeOfOperation ) {
         this.accountHolderName = accountHolderName;
         this.accountNumber = accountNumber;
         this.accountOpeningDate = accountOpeningDate;
         this.accountStatus = accountStatus;
-        this.accountBalance = accountBalance;
+        this.availableBalance = availableBalance;
         this.totalBalance = totalBalance;
         this.mobileBankingEnable = mobileBankingEnable;
         this.interestRate = interestRate;
         this.modeOfOperation = modeOfOperation;
     }
     
+    // This is a method which is used to withdraw, deposit and retrieve balance.
     public String getAccountHolderName ( ) {
         return accountHolderName;
     }
@@ -66,12 +72,12 @@ public class SavingsAccount {
         this.accountStatus = accountStatus;
     }
     
-    public double getAccountBalance ( ) {
-        return accountBalance;
+    public double getAvailableBalance ( ) {
+        return availableBalance;
     }
     
-    public void setAccountBalance ( double accountBalance ) {
-        this.accountBalance = accountBalance;
+    public void setAvailableBalance ( double availableBalance ) {
+        this.availableBalance = availableBalance;
     }
     
     public double getTotalBalance ( ) {
@@ -104,5 +110,19 @@ public class SavingsAccount {
     
     public void setModeOfOperation ( String modeOfOperation ) {
         this.modeOfOperation = modeOfOperation;
+    }
+    
+    // This is a method which is used to withdraw, deposit and retrieve balance.
+    public double withdraw ( double withdrawAmount ) {
+        if ( getAvailableBalance ( ) > withdrawAmount ) availableBalance = availableBalance - withdrawAmount;
+        return availableBalance;
+    }
+    
+    double deposit ( double depositAmount ) {
+        return getAvailableBalance ( ) + depositAmount;
+    }
+    
+    double retrieveBalance ( ) {
+        return getAvailableBalance ( );
     }
 }

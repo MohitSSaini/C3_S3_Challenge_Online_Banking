@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83dafb76-6e21-4a3f-b18a-a613b0490c10" name="Changes" comment="Declare a variable in SavingsAccount.java class">
+    <list default="true" id="83dafb76-6e21-4a3f-b18a-a613b0490c10" name="Changes" comment="create a getter and setter method in SavingsAccount.java class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/SavingAccountImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/SavingAccountImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/niit/jdp/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/niit/jdp/SavingsAccount.java" afterDir="false" />
     </list>
@@ -121,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661530624066</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Declare a constructor in SavingsAccount.java class">
+      <created>1661530732090</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530732090</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create a getter and setter method in SavingsAccount.java class">
+      <created>1661530845874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661530845875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +158,9 @@
     <MESSAGE value="Change a parameter syntax Language 11 - Local variable syntax for lambda parameters" />
     <MESSAGE value="create a saving account txt field" />
     <MESSAGE value="Declare a variable in SavingsAccount.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Declare a variable in SavingsAccount.java class" />
+    <MESSAGE value="Declare a constructor in SavingsAccount.java class" />
+    <MESSAGE value="create a getter and setter method in SavingsAccount.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a getter and setter method in SavingsAccount.java class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
